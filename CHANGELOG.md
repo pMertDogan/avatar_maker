@@ -1,8 +1,8 @@
 ## [Unreleased]
 ### Added
 - feat(assets): extended every style category to at least 50 items, so the
-  customizer now offers 742 styles in total:
-  hair styles 49 -> 107, facial hair types 19 -> 81, eyebrows 30 -> 74,
+  customizer now offers 733 styles in total:
+  hair styles 49 -> 104, facial hair types 19 -> 75, eyebrows 30 -> 74,
   eyes 30 -> 74, noses 20 -> 57, mouths 31 -> 68, outfit types 24 -> 75,
   accessories 39 -> 89, skin colours 28 -> 66, background styles 2 -> 51.
   Every new item is a distinct shape rather than a recolour of another one, and
@@ -13,6 +13,16 @@
   The new assets follow the package's own coordinate frames (the avatar frame
   for hair and outfits, the `Face` group frame for the facial features) and
   contain no `<style>` element, so they render with `flutter_svg`.
+- fix(svg): repair the rendering defects of the new styles — eye/mouth
+  alignment offsets, accessory anatomy (crowns, ties, earrings, bindi,
+  headband), hair shadow clipping and bun/loc attachment, group-opacity pupil
+  loss in 12 eye styles, and outfit necklines (scoop/boat/crew/tweed/blazer/
+  collar/hoodie) plus decorative stripe spill. Every thumbnail and avatar
+  composite is rasterized with `flutter_svg` in `test/all_svgs_render_test.dart`
+  to keep this from regressing.
+- Removed styles that read as meaningless floating patches: SpikyLong (hair)
+  and NeckBeard, PatchBeard, HandlebarPatch, CheekPatches, NeckPatch,
+  CornerPatch, WideChops, ThinChops (facial hair).
 - feat(assets): standalone previews in `assets/icons/*_50.svg` and a browser
   preview in `assets/icons/preview_50.html` that renders every item on a full
   avatar using the package's own `AvatarService.drawSVG` composition.
