@@ -830,8 +830,7 @@ enum OutfitTypes implements PropertyItem {
 <rect x=\"130\" y=\"44\" width=\"2\" height=\"64\" fill=\"#FFFFFF\" fill-opacity=\"0.55\" /><rect x=\"32\" y=\"48\" width=\"200\" height=\"8\" fill=\"#FFFFFF\" fill-opacity=\"0.18\" /><rect x=\"32\" y=\"63\" width=\"200\" height=\"8\" fill=\"#FFFFFF\" fill-opacity=\"0.18\" /><rect x=\"32\" y=\"78\" width=\"200\" height=\"8\" fill=\"#FFFFFF\" fill-opacity=\"0.18\" /><rect x=\"32\" y=\"93\" width=\"200\" height=\"8\" fill=\"#FFFFFF\" fill-opacity=\"0.18\" />
 </g>
 </g>"""),
-  Parka(
-      """<g id=\"OutfitTypes/Parka\" transform=\"translate(0,170)\"><defs>
+  Parka("""<g id=\"OutfitTypes/Parka\" transform=\"translate(0,170)\"><defs>
 <path d=\"M104.0,29.0 C64,29 32.0,61 32.0,101.0 L32.0,110.0 L232.0,110.0 L232.0,101.0 C232.0,61 200,29 160.0,29.0 L160,29 L160,14 C160,10 104,10 104,29 Z\" id="am-path-parka-0"/>
 <path d=\"M98,26 C92,-2 172,-2 166,26 C158,44 106,44 98,26 Z\" id="am-path-parka-1"/>
 <rect x=\"128\" y=\"44\" width=\"8\" height=\"64\" fill-opacity=\"0.35\" id="am-path-parka-2"/>
@@ -989,8 +988,7 @@ enum OutfitTypes implements PropertyItem {
       """<g id=\"OutfitTypes/GraphicTee\" transform=\"translate(0,170)\"><g id=\"$TO_REPLACE_WITH_OUTFIT_COLOR_NAME\" fill=\"$TO_REPLACE_WITH_OUTFIT_COLOR\" fill-rule=\"evenodd\"><path d=\"M104.0,29.0 C64,29 32.0,61 32.0,101.0 L32.0,110.0 L232.0,110.0 L232.0,101.0 C232.0,61 200,29 160.0,29.0 L158,29 C158,32 158,45 132,45 C106,45 106,32 106,29 Z\" /><path d=\"M104,26 C104,44 160,44 160,26 L160,40 C160,52 104,52 104,40 Z\" /><path d=\"M110,62 L132,48 L154,62 L148,90 L132,80 L116,90 Z\" fill-opacity=\"0.3\" /></g></g>"""),
   CropTop(
       """<g id=\"OutfitTypes/CropTop\" transform=\"translate(0,170)\"><g id=\"$TO_REPLACE_WITH_OUTFIT_COLOR_NAME\" fill=\"$TO_REPLACE_WITH_OUTFIT_COLOR\" fill-rule=\"evenodd\"><path d=\"M104.0,29.0 C64,29 32.0,61 32.0,101.0 L32.0,110.0 L232.0,110.0 L232.0,101.0 C232.0,61 200,29 160.0,29.0 L158,29 C158,32 158,45 132,45 C106,45 106,32 106,29 Z\" /><path d=\"M104,26 C104,44 160,44 160,26 L160,40 C160,52 104,52 104,40 Z\" /><rect x=\"32\" y=\"86\" width=\"200\" height=\"24\" fill-opacity=\"0.3\" /></g></g>"""),
-  Uniform(
-      """<g id=\"OutfitTypes/Uniform\" transform=\"translate(0,170)\"><defs>
+  Uniform("""<g id=\"OutfitTypes/Uniform\" transform=\"translate(0,170)\"><defs>
 <path d=\"M104.0,29.0 C64,29 32.0,61 32.0,101.0 L32.0,110.0 L232.0,110.0 L232.0,101.0 C232.0,61 200,29 160.0,29.0 L158,29 C158,32 158,45 132,45 C106,45 106,32 106,29 Z\" id="am-path-uniform-0"/>
 <path d=\"M100,26 L132,50 L164,26 L170,31 L138,62 L126,62 L94,31 Z\" id="am-path-uniform-1"/>
 <rect x=\"126\" y=\"48\" width=\"12\" height=\"96\" fill-opacity=\"0.22\" id="am-path-uniform-2"/>
